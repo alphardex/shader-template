@@ -12,7 +12,7 @@ export default class Experience extends kokomi.Base {
 
     window.experience = this;
 
-    this.debug = new Debug(this);
+    this.debug = new Debug();
 
     this.am = new kokomi.AssetManager(this, resources);
 
